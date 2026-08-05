@@ -69,58 +69,7 @@ The primary model selection criterion is **Recall**, followed by **F1
 Score** and **ROC-AUC**, since missing an intrusion is more costly than
 generating a false positive.
 
-## Technologies
 
--   Python
--   Pandas
--   NumPy
--   Scikit-learn
--   Imbalanced-learn
--   XGBoost
--   LightGBM
--   CatBoost
--   SHAP
--   Matplotlib
--   Jupyter Notebook
-
-## Project Structure
-
-``` text
-.
-├── HIDS_Project.ipynb
-├── artifacts/
-├── README.md
-└── dataset/
-```
-
-## Installation
-
-``` bash
-git clone https://github.com/your-username/HIDS.git
-cd HIDS
-pip install -r requirements.txt
-```
-
-If a `requirements.txt` file is unavailable, install the required
-packages manually:
-
-``` bash
-pip install pandas numpy matplotlib scikit-learn imbalanced-learn xgboost lightgbm catboost shap
-```
-
-## Running the Project
-
-1.  Download the ADFA-LD dataset.
-2.  Place the dataset in the project directory.
-3.  Open `HIDS_Project.ipynb`.
-4.  Execute the notebook cells sequentially.
-
-## Future Improvements
-
--   Real-time intrusion detection
--   Deep learning models (LSTM/Transformers)
--   Hyperparameter optimization
--   REST API deployment
 -   Live monitoring dashboard
 
 ## Author
